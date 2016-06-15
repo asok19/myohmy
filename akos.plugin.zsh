@@ -24,3 +24,5 @@ if [[ -n "$SSH_AGENT_PID" ]]; then
 		ssh-add ${HOME}/.ssh/*_nopass 2> /dev/null
 	fi
 fi
+
+eval $(dircolors)
